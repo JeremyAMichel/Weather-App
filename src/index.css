@@ -1,0 +1,13 @@
+/* Polices */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+/* Styles globaux */
+body {
+  background: #202629;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}

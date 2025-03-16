@@ -1,0 +1,37 @@
+.temperature {
+  margin-left: 4vh;
+  font-size: 120px;
+  font-family: "Roboto", sans-serif;
+  text-shadow: -1px 0 #61dafb, 0 1px #61dafb, 1px 0 #61dafb, 0 -1px #61dafb;
+}
+
+.weather-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-condition {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.wind {
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .temperature {
+    font-size: 80px;
+    margin-left: 2vh;
+  }
+
+  .weather-icon img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .weather-condition {
+    font-size: 1em;
+  }
+}

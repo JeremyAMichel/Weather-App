@@ -1,0 +1,25 @@
+.city-search {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.city-search .input-field {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.city-search input {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px 0 0 4px;
+  padding: 0 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  flex: 1;
+  height: 36px;
+}
+
+.city-search button {
+  border-radius: 0 4px 4px 0;
+  padding: 0 15px;
+}
