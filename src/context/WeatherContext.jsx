@@ -29,6 +29,9 @@ export function useWeatherContext() {
   if (!context) {
     throw new Error('useWeatherContext doit être utilisé au sein d\'un WeatherProvider');
   }
+
+  console.log(context);
+  
   
   return context;
 }
