@@ -7,7 +7,6 @@ import CitySearch from "./components/CitySearch/CitySearch";
 function App() {
   return (
     <WeatherProvider defaultCity="Lyon">
-      <p>HELOODKJSNKJBFQDSHFJFBHJSBDFKSNLKFS</p>
       <div className="App">
         <Header />
         <div className="container">
